@@ -1,0 +1,6 @@
+# 背景图片墙插件（dsh-bgwall-plugin）—— bundle 配置层
+# 由 dsh.bundle 清单引用；`dsh plugin add` 安装后自动并入组合。
+# 该行同时充当 Host 插件行与 Web client 名单条目，二者缺一不可。
+- insert:
+    - id: bgwall
+      name: dsh-bgwall-plugin

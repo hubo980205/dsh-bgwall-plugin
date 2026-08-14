@@ -1,0 +1,41 @@
+{
+  "name": "dsh-bgwall-plugin",
+  "version": "1.0.0",
+  "description": "背景图片墙 (Background Wall)：把 DeepSeek Harness Web 界面背景换成任意图片（远程 URL 或服务器本地文件），支持透明度、模糊与铺放方式调节。控制面板位于「设置 → 背景图片」。",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "background",
+    "wallpaper",
+    "theme",
+    "plugin"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<你的用户名>/dsh-bgwall-plugin.git"
+  },
+  "homepage": "https://github.com/<你的用户名>/dsh-bgwall-plugin#readme",
+  "license": "MIT"
+}
