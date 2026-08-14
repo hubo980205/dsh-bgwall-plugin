@@ -34,8 +34,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<你的用户名>/dsh-bgwall-plugin.git"
+    "url": "https://github.com/hubo980205/dsh-bgwall-plugin.git"
   },
-  "homepage": "https://github.com/<你的用户名>/dsh-bgwall-plugin#readme",
+  "homepage": "https://github.com/hubo980205/dsh-bgwall-plugin#readme",
   "license": "MIT"
 }
